@@ -7,7 +7,7 @@ pipeline {
                 bat 'mvn clean test'
             }
         }
-
+}
           post {
                always {
                    //  Allure report
@@ -17,4 +17,3 @@ pipeline {
 
 
     }
-}
